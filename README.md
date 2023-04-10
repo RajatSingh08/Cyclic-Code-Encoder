@@ -9,7 +9,7 @@
 - Dr. Rahul CS
 
 ## Course
-- CS425 Algebrain Coding Theory and Cryptography
+- CS425 Algebraic Coding Theory and Cryptography
 
 ## Tech Stack
 1. `Django` - a python web framework that provides a robust set of tools and libraries for building web applications.
@@ -28,37 +28,37 @@
 
 ## About
 The Cyclic Code Encoder is a web application built using Django, a Python web framework. <br>
-It provides a simple frontend interface for users to input data and encode it using *[n, k]<sub>q</sub>* cyclic codes using a randomly generated Generator Polynomial. <br>
+It provides a simple frontend interface for users to input data and encode it using **[n, k]<sub>q</sub>** cyclic codes using a randomly generated Generator Polynomial. <br>
 The backend of the application utilizes Django's redirect view to allow users to redirect to a specified URL by clicking on a "Encode" button. <br>
 It serves as a basic example of how to implement Cyclic Code Encoder with a GUI using a web application with Django.
 
 ## Run
-1. Install [*python3*](https://www.python.org/downloads/)
+1. Install [**python3**](https://www.python.org/downloads/)
 
-2. Create a virtual environment 
+2. Create a virtual environment <br>
 `python -m venv env`
 
-3. Activate the virtual environment
+3. Activate the virtual environment <br>
 `source env/bin/activate`
 
-4. Install Django using pip
+4. Install Django using pip<br>
 `pip install django`
 
-5. Clone the github repository
+5. Clone the github repository<br>
 `git clone https://github.com/RajatSingh08/Cyclic-Code-Encoder`
 
-6. Open the project folder
+6. Open the project folder<br>
 `cd Cyclic-Code-Encoder/CyclicCodeEncoder/`
 
-7. Run the following command 
+7. Run the following command <br>
 `python manage.py runserver`
 
-8. Open a web browser and search the following url
+8. Open a web browser and search the following url<br>
 `http://127.0.0.1:8000/`
 
-9. Input the values of *n, **k, **q, **data* and click "*ENCODE*"
+9. Input the values of **n**, **k**, **q**, **data** and click "**ENCODE**"
 
-10. To encode new data, click "*GO BACK*" 
+10. To encode new data, click "**GO BACK**" 
 
 ## Screenshots
 ![enter image description here](https://raw.githubusercontent.com/RajatSingh08/Cyclic-Code-Encoder/main/screenshots/input.png)
